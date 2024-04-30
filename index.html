@@ -367,11 +367,11 @@
                                         <h2>Registration Form</h2>
                                         <form id="registrationForm" action="http://localhost:8000/submit" method="POST">
                                                 <label for="name">Name:</label><br>
-                                                <input type="text" id="name" name="name" required><br>
+                                                <input type="text" id="name" name="name" required placeholder="Please enter your name"><br>
                                                 <label for="mobile">Mobile Number:</label><br>
-                                                <input type="tel" id="mobile" name="mobile" pattern="[7-9][0-9]{9}" required maxlength="10"><br>
+                                                <input type="tel" id="mobile" name="mobile" pattern="[7-9][0-9]{9}" required maxlength="10" title="Please enter a valid 10-digit Indian mobile number starting with 7, 8, or 9" placeholder="Please enter a valid 10-digit Indian mobile number"><br>
                                                 <label for="email">Email:</label><br>
-                                                <input type="email" id="email" name="email" required><br>
+                                                <input type="email" id="email" name="email" placeholder="Please enter your email" required><br>
                                                 <label for="gender">Gender:</label><br>
                                                 <select id="gender" name="gender" required>
                                                 <option value="male">Male</option>
